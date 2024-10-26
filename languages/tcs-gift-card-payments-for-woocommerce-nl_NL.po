@@ -1,0 +1,510 @@
+# Translation of 
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: tcs-gift-card-payments-for-woocommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-18 14:40+0200\n"
+"PO-Revision-Date: 2021-05-18 14:45+0200\n"
+"Last-Translator: Michel ter Stege\n"
+"Language-Team: <>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Bookmarks: -1,-1,-1,-1,-1,28,-1,-1,-1,-1\n"
+
+#: admin/admin-menu.php:26 admin/admin-menu.php:27
+msgid "TCS Gift Card Payments"
+msgstr "TCS Gift Card Payments"
+
+#: admin/admin-menu.php:38
+msgid "123TCS Keys"
+msgstr "123TCS Keys"
+
+#: admin/admin-menu.php:45
+msgid "Gift Card name and logo"
+msgstr "Gift Card naam en logo"
+
+#: admin/admin-menu.php:53
+msgid "Live Merchant ID"
+msgstr "Live Merchant ID"
+
+#: admin/admin-menu.php:61
+msgid "Live Secret Key"
+msgstr "Live Secret Key"
+
+#: admin/admin-menu.php:69
+msgid "Activate test mode"
+msgstr "Activeer de testmodus"
+
+#: admin/admin-menu.php:77
+msgid "Test Merchant ID"
+msgstr "Test Merchant ID"
+
+#: admin/admin-menu.php:85
+msgid "Test Secret Key"
+msgstr "Test Secret Key"
+
+#: admin/admin-menu.php:93
+msgid "Open loop card"
+msgstr "Open loop kaart"
+
+#: admin/admin-menu.php:101
+msgid "Gift Card name"
+msgstr "Gift Card naam"
+
+#: admin/admin-menu.php:109 public/templates/gift-card-entry.php:28
+msgid "Gift Card logo"
+msgstr "Gift Card logo"
+
+#: admin/admin-menu.php:123
+msgid "TCS Gift Card Payments for WooCommerce settings"
+msgstr "TCS Gift Card Payments for WooCommerce settings"
+
+#: admin/admin-menu.php:128
+msgid "Save changes"
+msgstr "Opslaan"
+
+#: admin/admin-menu.php:137
+msgid "Enter your TCS Merchant ID and Secret keys here"
+msgstr "Vul hier je TCS Merchant ID en Secret Keys in"
+
+#: admin/admin-menu.php:143
+msgid "Enter your Gift Card name and Gift Card logo here"
+msgstr "Vul hier de naam van je Gift Card in en selecteer een logo"
+
+#: admin/templates/admin-notice-no-live-credentials-found.php:8
+#, php-format
+msgid ""
+"<strong>123TCS Gift Card Payments for WooCommerce</strong> The Live Merchant "
+"Id and / or Live Secret Key is missing. Please <a href=\"%s\">set the "
+"Merchant Id and Secret Key</a> to use 123TCS Gift Card Payments for "
+"WooCommerce"
+msgstr ""
+"<strong>123TCS Gift Card Payments for WooCommerce</strong> Het Live Merchant "
+"Id en / of Live Secret Key ontbreekt. <a href=\"%s\">Stel je Merchant Id en "
+"Secret Key in</a> om 123TCS Gift Card Payments for WooCommerce te gebruiken"
+
+#: admin/templates/admin-notice-no-test-credentials-found.php:8
+#, php-format
+msgid ""
+"<strong>123TCS Gift Card Payments for WooCommerce</strong> The Test Merchant "
+"Id and / or Test Secret Key is missing. Please <a href=\"%s\">set the "
+"Merchant Id and Secret Key</a> to use 123TCS Gift Card Payments for "
+"WooCommerce"
+msgstr ""
+"<strong>123TCS Gift Card Payments for WooCommerce</strong> Het Test Merchant "
+"Id en / of Live Secret Key ontbreekt. <a href=\"%s\">Stel je Merchant Id en "
+"Secret Key in</a> om 123TCS Gift Card Payments for WooCommerce te gebruiken"
+
+#: admin/templates/admin-notice-test-mode-active.php:8
+#, php-format
+msgid ""
+"<strong>123TCS Gift Card Payments for WooCommerce</strong> The test mode is "
+"active. Please <a href=\"%s\">deactivate this</a> before going into "
+"production"
+msgstr ""
+"<strong>123TCS Gift Card Payments for WooCommerce</strong> De testmodus is "
+"actief. <a href=\"%s\">deactiveer de testmodus</a> voor dat je live gaat"
+
+#: admin/templates/admin-notice-woocommerce-not-found.php:8
+msgid "123TCS Gift Card Payments for WooCommerce is inactive:"
+msgstr "123TCS Gift Card Payments for WooCommerce is niet actief:"
+
+#: admin/templates/admin-notice-woocommerce-not-found.php:9
+msgid ""
+"The WooCommerce plugin must be active. Please install & activate WooCommerce"
+msgstr ""
+"De WooCommerce plugin moet actief zijn. Installeer & activeer WooCommerce"
+
+#: admin/templates/admin-notice-woocommerce-not-found.php:10
+msgid ""
+"Correct the above errors to use 123TCS Gift Card Payments for WooCommerce"
+msgstr ""
+"Los bovenstaande problemen op om 123TCS Gift Card Payments for WooCommerce "
+"te kunnen gebruiken"
+
+#: includes/settings.php:84
+msgid ""
+"The Live Secret Key should consist of 32 alfanumerical characters without "
+"spaces."
+msgstr ""
+"De Live Secret Key moet uit 32 alfanumerieke tekens bestaan zonder spaties."
+
+#: includes/settings.php:97
+msgid ""
+"The Test Secret Key should consist of 32 alfanumerical characters without "
+"spaces."
+msgstr ""
+"De Test Secret Key moet uit 32 alfanumerieke tekens bestaan zonder spaties."
+
+#: includes/settings.php:127
+msgid "Merchant Id and Secret Key successfully validated."
+msgstr "Merchant Id en Secret Key succesvol gevalideerd."
+
+#: includes/settings.php:137
+msgid "MerchantID not found"
+msgstr "MerchantID niet gevonden"
+
+#: includes/settings.php:142
+msgid "Secret Key not valid"
+msgstr "Secret Key niet geldig"
+
+#: includes/settings.php:147
+msgid "Not able to check credentials"
+msgstr "De credentials kunnen niet gecontroleerd worden"
+
+#: includes/settings.php:209
+msgid ""
+"Activate the test mode if you want to test the plugin without using real "
+"payments."
+msgstr ""
+"Activeer de testmodus als je de plugin wilt testen zonder echte betalingen "
+"te doen."
+
+#: includes/settings.php:253
+msgid ""
+"Check this box when your Gift Card is an open loop card. This limits the "
+"maximum amount to withdraw from a single gift card to €50,- to comply with "
+"regulations."
+msgstr ""
+"Vink dit aan wanneer jouw Gift Card een 'open loop' kaart is. Dit limiteert "
+"het maximum bedrag dat afgeschreven kan worden van een enkele gift card tot "
+"€50,- om te voldoen aan wettelijke regelgeving."
+
+#: includes/settings.php:296
+msgid "Use aspect ratio 4 : 3"
+msgstr "Gebruik een aspect ratio van 4 : 3"
+
+#: includes/settings.php:298
+msgid "Upload image"
+msgstr "Afbeelding uploaden"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:68
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:90
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:112
+#, php-format
+msgid "Error for card number %s with verification code %s."
+msgstr "Fout voor kaartnummer %s met verificatiecode %s."
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:152
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:162
+msgid ""
+"An error occurred in the request, please contact the webshop administator"
+msgstr "Er is een fout opgetreden, neem contact op met de webshopbeheerder"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:202
+msgid "Unknown error, please contact the webshop administator"
+msgstr "Onbekende fout, neem alsjeblieft contact op met de beheerder"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:206
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:210
+msgid "System error, please contact the webshop administator"
+msgstr "Systeemfout, neem alsjeblieft contact op met de beheerder"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:214
+msgid "Entered amount invalid"
+msgstr "Ingevoerde bedrag ongeldig"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:218
+msgid "Card number not found"
+msgstr "Kaartnummer niet gevonden"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:222
+msgid "Card status unknown"
+msgstr "Kaartstatus onbekend"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:226
+msgid "Card type unknown"
+msgstr "Kaarttype niet herkend"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:230
+msgid "Card status not valid"
+msgstr "Kaartstatus ongeldig"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:234
+msgid "Card not activated"
+msgstr "Kaart niet geactiveerd"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:238
+msgid "Card already activated"
+msgstr "Kaart is al geactiveerd"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:242
+msgid "Card is deactivated"
+msgstr "Kaart is gedeactiveerd"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:246
+msgid "Card suspended"
+msgstr "Kaart geschorst"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:250
+msgid "Card expired"
+msgstr "Kaart verlopen"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:254
+msgid "Entered start date wrong"
+msgstr "Ingevoerde startdatum verkeerd"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:258
+msgid "Card Startdate is too high"
+msgstr "Kaart startdatum is te hoog"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:262
+msgid "Current date is lower than card startdate"
+msgstr "Huidige datum is lager dan kaart startdatum"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:266
+msgid "Card is registered"
+msgstr "Kaart is geregistreerd"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:270
+msgid "EAN code not found"
+msgstr "EAN code niet gevonden"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:274
+msgid "No more numbers available"
+msgstr "Geen nummers beschikbaar"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:278
+msgid "Category not found"
+msgstr "Categorie niet gevonden"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:282
+msgid "Entered amount exceeds the maximum allowable value"
+msgstr "Het ingevoerde bedrag overschrijd de maximum waarde"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:286
+msgid "Entered amount is less than the minimum allowable value"
+msgstr "Het ingevoerde bedrag is minder dan de toegestane minimumwaarde"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:290
+msgid "Wrong currency used"
+msgstr "Verkeerde munteenheid gebruikt"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:294
+msgid "Transactions limit reached"
+msgstr "Transactielimiet bereikt"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:298
+msgid "Daily transaction limit reached"
+msgstr "Dagelijkse transactielimiet bereikt"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:302
+msgid "Transaction not allowed today"
+msgstr "Transactie vandaag niet toegestaan"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:306
+msgid "Transaction not allowed rollback"
+msgstr "Transactie kan niet teruggedraaid worden"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:310
+msgid "Transaction no longer allowed"
+msgstr "Transactie niet meer toegestaan"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:314
+msgid "Card already in use"
+msgstr "Kaart is al in gebruik"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:318
+msgid "Maximum number of refills exceeded"
+msgstr "Maximum aantal her-opwaarderingen bereikt"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:322
+msgid "Card activated elsewhere"
+msgstr "Kaart is al reeds geactiveerd"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:326
+msgid "Transaction was already refunded"
+msgstr "Transctie is al reeds teruggedraaid"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:330
+msgid "Transaction reference not found"
+msgstr "Referentie van de transctie is niet gevonden"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:334
+msgid "Amount is too high"
+msgstr "Ingegeven bedrag is te hoog"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:338
+msgid "Transaction requestID is not unique"
+msgstr "Het request ID is niet uniek"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:342
+msgid "CustomerID is not equal"
+msgstr "Klantnummer is niet gelijk"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:346
+msgid "No card(s) found for this CustomerID"
+msgstr "Geen kaarten gevonden bij deze klant"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:350
+msgid "Current amount insufficient"
+msgstr "Huidige bedrag is niet voldoende"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:354
+msgid "Amount outside allowed range"
+msgstr "Bedrag is buiten het toegestane bereik"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:358
+msgid "System error, please contact webshop administrator"
+msgstr "Systeemfout, neem contact op met de webshopbeheerder"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:362
+msgid "User not active"
+msgstr "Gebruiker is niet actief"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:366
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:370
+msgid "Not allowed to use this card"
+msgstr "Deze kaart mag niet worden gebruikt"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:374
+msgid "User is not allowed to do a rollback"
+msgstr "Deze kaart mag niet worden gebruikt"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:378
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:382
+msgid "Internal failure, please contact webshop administrator"
+msgstr "Interne fout, neem contact op met de webshopbeheerder"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:386
+msgid "Request ID not found"
+msgstr "Request ID niet gevonden"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:390
+msgid "Invalid request ID"
+msgstr "Request ID incorrect"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:394
+msgid "Request ID not correct"
+msgstr "Request ID incorrect"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:398
+msgid "Transaction already rolled back"
+msgstr "Transactie is al reeds teruggedraaid"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:402
+msgid "Request can not be validated, please contact webshop administrator"
+msgstr ""
+"Aanvraag kan niet worden gevalideerd, neem contact op met de webshopbeheerder"
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:406
+msgid "An unknown error occured, please contact webshop administrator"
+msgstr "Onbekende fout, neem contact op met de webshopbeheerder"
+
+#: public/checkout.php:121
+msgid "Processing..."
+msgstr "Verwerken..."
+
+#: public/checkout.php:181
+msgid "Card number should not be empty."
+msgstr "Kaartnummer mag niet leeg zijn."
+
+#: public/checkout.php:187
+#, php-format
+msgid "No validation code entered for card %s"
+msgstr "Geen validatiecode ingevoerd voor kaart %s"
+
+#: public/checkout.php:194
+#, php-format
+msgid ""
+"The card number should consist of 19 numbers. You entered card number %s "
+"with validation code: %s"
+msgstr ""
+"Het kaartnummer moet bestaan uit 19 cijfers. Je hebt kaartnummer %s met "
+"validatiecode: %s ingevoerd"
+
+#: public/checkout.php:200
+#, php-format
+msgid ""
+"The verification code should consist of 5 numbers. You entered card number "
+"%s with validation code: %s"
+msgstr ""
+"De verificatiecode moet bestaan uit 5 cijfers. Je hebt kaartnummer %s met "
+"validatiecode: %s ingevoerd"
+
+#: public/checkout.php:212
+#, php-format
+msgid ""
+"Gift Card %s with validation code %s cannot be used it has the status %s."
+msgstr ""
+"Gift Card %s met validatiecode %s kan niet gebruikt worden. De status is %s."
+
+#: public/checkout.php:219
+#, php-format
+msgid "Gift Card %s with validation code %s has no balance."
+msgstr "Gift Card %s met validatiecode %s heeft geen tegoed."
+
+#: public/checkout.php:266
+msgid "Request could not be validated, please refresh the page and try again"
+msgstr ""
+"Het verzoek kon niet worden gevalideerd, ververs de pagina en probeer het "
+"nog eens"
+
+#: public/checkout.php:278
+msgid "Unable to remove card"
+msgstr "Kaart kan niet verwijderd worden"
+
+#: public/checkout.php:403
+msgid "(remove card)"
+msgstr "(kaart verwijderen)"
+
+#: public/checkout.php:496
+#, php-format
+msgid ""
+"The following %s gift card(s) will be subtracted from the total on payment:"
+msgstr ""
+"De volgende %s gift card(s) zullen bij betaling van het totaal afgetrokken "
+"worden:"
+
+#: public/checkout.php:500 public/checkout.php:618
+#: public/templates/gift-card-entry.php:39
+msgid "Card number"
+msgstr "Kaartnummer"
+
+#: public/checkout.php:501
+msgid "Amount"
+msgstr "Bedrag"
+
+#: public/checkout.php:532
+msgid "Remaining amount"
+msgstr "Restantbedrag"
+
+#: public/checkout.php:619
+msgid "Amount withdrawn"
+msgstr "Afgeschreven bedrag"
+
+#: public/checkout.php:667
+#, php-format
+msgid "Paid %s with Gift Card %s"
+msgstr "%s betaald met Gift Card %s"
+
+#: public/checkout.php:733
+#, php-format
+msgid "Rolled back %s for Gift Card %s. Original request id: %s"
+msgstr "%s teruggeboekt voor Gift Card %s. Originele request id: %s"
+
+#: public/checkout.php:745
+#, php-format
+msgid "Rollback failed for Gift Card %s. Original request id: %s"
+msgstr "Terugboeken mislukt voor Gift Card %s. Originele request id: %s"
+
+#: public/templates/gift-card-entry.php:49
+msgid "Validation code"
+msgstr "Validatiecode"
+
+#: public/templates/gift-card-entry.php:54
+msgid "Add Gift Card"
+msgstr "Gift Card toevoegen"
+
+#~ msgid "Internal failure, please contact webshop administrator\\"
+#~ msgstr "Interne fout, neem contact op met de webshopbeheerder"
+
+#~ msgid "Unable to connect to server."
+#~ msgstr "Niet mogelijk om met de server te verbinden"

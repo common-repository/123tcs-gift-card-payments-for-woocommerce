@@ -1,0 +1,477 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-18 14:40+0200\n"
+"PO-Revision-Date: 2021-05-18 14:40+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+
+#: admin/admin-menu.php:26 admin/admin-menu.php:27
+msgid "TCS Gift Card Payments"
+msgstr ""
+
+#: admin/admin-menu.php:38
+msgid "123TCS Keys"
+msgstr ""
+
+#: admin/admin-menu.php:45
+msgid "Gift Card name and logo"
+msgstr ""
+
+#: admin/admin-menu.php:53
+msgid "Live Merchant ID"
+msgstr ""
+
+#: admin/admin-menu.php:61
+msgid "Live Secret Key"
+msgstr ""
+
+#: admin/admin-menu.php:69
+msgid "Activate test mode"
+msgstr ""
+
+#: admin/admin-menu.php:77
+msgid "Test Merchant ID"
+msgstr ""
+
+#: admin/admin-menu.php:85
+msgid "Test Secret Key"
+msgstr ""
+
+#: admin/admin-menu.php:93
+msgid "Open loop card"
+msgstr ""
+
+#: admin/admin-menu.php:101
+msgid "Gift Card name"
+msgstr ""
+
+#: admin/admin-menu.php:109 public/templates/gift-card-entry.php:28
+msgid "Gift Card logo"
+msgstr ""
+
+#: admin/admin-menu.php:123
+msgid "TCS Gift Card Payments for WooCommerce settings"
+msgstr ""
+
+#: admin/admin-menu.php:128
+msgid "Save changes"
+msgstr ""
+
+#: admin/admin-menu.php:137
+msgid "Enter your TCS Merchant ID and Secret keys here"
+msgstr ""
+
+#: admin/admin-menu.php:143
+msgid "Enter your Gift Card name and Gift Card logo here"
+msgstr ""
+
+#: admin/templates/admin-notice-no-live-credentials-found.php:8
+#, php-format
+msgid ""
+"<strong>123TCS Gift Card Payments for WooCommerce</strong> The Live Merchant "
+"Id and / or Live Secret Key is missing. Please <a href=\"%s\">set the "
+"Merchant Id and Secret Key</a> to use 123TCS Gift Card Payments for "
+"WooCommerce"
+msgstr ""
+
+#: admin/templates/admin-notice-no-test-credentials-found.php:8
+#, php-format
+msgid ""
+"<strong>123TCS Gift Card Payments for WooCommerce</strong> The Test Merchant "
+"Id and / or Test Secret Key is missing. Please <a href=\"%s\">set the "
+"Merchant Id and Secret Key</a> to use 123TCS Gift Card Payments for "
+"WooCommerce"
+msgstr ""
+
+#: admin/templates/admin-notice-test-mode-active.php:8
+#, php-format
+msgid ""
+"<strong>123TCS Gift Card Payments for WooCommerce</strong> The test mode is "
+"active. Please <a href=\"%s\">deactivate this</a> before going into "
+"production"
+msgstr ""
+
+#: admin/templates/admin-notice-woocommerce-not-found.php:8
+msgid "123TCS Gift Card Payments for WooCommerce is inactive:"
+msgstr ""
+
+#: admin/templates/admin-notice-woocommerce-not-found.php:9
+msgid ""
+"The WooCommerce plugin must be active. Please install & activate WooCommerce"
+msgstr ""
+
+#: admin/templates/admin-notice-woocommerce-not-found.php:10
+msgid ""
+"Correct the above errors to use 123TCS Gift Card Payments for WooCommerce"
+msgstr ""
+
+#: includes/settings.php:84
+msgid ""
+"The Live Secret Key should consist of 32 alfanumerical characters without "
+"spaces."
+msgstr ""
+
+#: includes/settings.php:97
+msgid ""
+"The Test Secret Key should consist of 32 alfanumerical characters without "
+"spaces."
+msgstr ""
+
+#: includes/settings.php:127
+msgid "Merchant Id and Secret Key successfully validated."
+msgstr ""
+
+#: includes/settings.php:137
+msgid "MerchantID not found"
+msgstr ""
+
+#: includes/settings.php:142
+msgid "Secret Key not valid"
+msgstr ""
+
+#: includes/settings.php:147
+msgid "Not able to check credentials"
+msgstr ""
+
+#: includes/settings.php:209
+msgid ""
+"Activate the test mode if you want to test the plugin without using real "
+"payments."
+msgstr ""
+
+#: includes/settings.php:253
+msgid ""
+"Check this box when your Gift Card is an open loop card. This limits the "
+"maximum amount to withdraw from a single gift card to €50,- to comply with "
+"regulations."
+msgstr ""
+
+#: includes/settings.php:296
+msgid "Use aspect ratio 4 : 3"
+msgstr ""
+
+#: includes/settings.php:298
+msgid "Upload image"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:68
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:90
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:112
+#, php-format
+msgid "Error for card number %s with verification code %s."
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:152
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:162
+msgid ""
+"An error occurred in the request, please contact the webshop administator"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:202
+msgid "Unknown error, please contact the webshop administator"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:206
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:210
+msgid "System error, please contact the webshop administator"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:214
+msgid "Entered amount invalid"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:218
+msgid "Card number not found"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:222
+msgid "Card status unknown"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:226
+msgid "Card type unknown"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:230
+msgid "Card status not valid"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:234
+msgid "Card not activated"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:238
+msgid "Card already activated"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:242
+msgid "Card is deactivated"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:246
+msgid "Card suspended"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:250
+msgid "Card expired"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:254
+msgid "Entered start date wrong"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:258
+msgid "Card Startdate is too high"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:262
+msgid "Current date is lower than card startdate"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:266
+msgid "Card is registered"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:270
+msgid "EAN code not found"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:274
+msgid "No more numbers available"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:278
+msgid "Category not found"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:282
+msgid "Entered amount exceeds the maximum allowable value"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:286
+msgid "Entered amount is less than the minimum allowable value"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:290
+msgid "Wrong currency used"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:294
+msgid "Transactions limit reached"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:298
+msgid "Daily transaction limit reached"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:302
+msgid "Transaction not allowed today"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:306
+msgid "Transaction not allowed rollback"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:310
+msgid "Transaction no longer allowed"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:314
+msgid "Card already in use"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:318
+msgid "Maximum number of refills exceeded"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:322
+msgid "Card activated elsewhere"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:326
+msgid "Transaction was already refunded"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:330
+msgid "Transaction reference not found"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:334
+msgid "Amount is too high"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:338
+msgid "Transaction requestID is not unique"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:342
+msgid "CustomerID is not equal"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:346
+msgid "No card(s) found for this CustomerID"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:350
+msgid "Current amount insufficient"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:354
+msgid "Amount outside allowed range"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:358
+msgid "System error, please contact webshop administrator"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:362
+msgid "User not active"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:366
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:370
+msgid "Not allowed to use this card"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:374
+msgid "User is not allowed to do a rollback"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:378
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:382
+msgid "Internal failure, please contact webshop administrator"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:386
+msgid "Request ID not found"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:390
+msgid "Invalid request ID"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:394
+msgid "Request ID not correct"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:398
+msgid "Transaction already rolled back"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:402
+msgid "Request can not be validated, please contact webshop administrator"
+msgstr ""
+
+#: includes/cardbase-pos-webservice/cardbase-pos-webservice.php:406
+msgid "An unknown error occured, please contact webshop administrator"
+msgstr ""
+
+#: public/checkout.php:121
+msgid "Processing..."
+msgstr ""
+
+#: public/checkout.php:181
+msgid "Card number should not be empty."
+msgstr ""
+
+#: public/checkout.php:187
+#, php-format
+msgid "No validation code entered for card %s"
+msgstr ""
+
+#: public/checkout.php:194
+#, php-format
+msgid ""
+"The card number should consist of 19 numbers. You entered card number %s "
+"with validation code: %s"
+msgstr ""
+
+#: public/checkout.php:200
+#, php-format
+msgid ""
+"The verification code should consist of 5 numbers. You entered card number "
+"%s with validation code: %s"
+msgstr ""
+
+#: public/checkout.php:212
+#, php-format
+msgid ""
+"Gift Card %s with validation code %s cannot be used it has the status %s."
+msgstr ""
+
+#: public/checkout.php:219
+#, php-format
+msgid "Gift Card %s with validation code %s has no balance."
+msgstr ""
+
+#: public/checkout.php:266
+msgid "Request could not be validated, please refresh the page and try again"
+msgstr ""
+
+#: public/checkout.php:278
+msgid "Unable to remove card"
+msgstr ""
+
+#: public/checkout.php:403
+msgid "(remove card)"
+msgstr ""
+
+#: public/checkout.php:496
+#, php-format
+msgid ""
+"The following %s gift card(s) will be subtracted from the total on payment:"
+msgstr ""
+
+#: public/checkout.php:500 public/checkout.php:618
+#: public/templates/gift-card-entry.php:39
+msgid "Card number"
+msgstr ""
+
+#: public/checkout.php:501
+msgid "Amount"
+msgstr ""
+
+#: public/checkout.php:532
+msgid "Remaining amount"
+msgstr ""
+
+#: public/checkout.php:619
+msgid "Amount withdrawn"
+msgstr ""
+
+#: public/checkout.php:667
+#, php-format
+msgid "Paid %s with Gift Card %s"
+msgstr ""
+
+#: public/checkout.php:733
+#, php-format
+msgid "Rolled back %s for Gift Card %s. Original request id: %s"
+msgstr ""
+
+#: public/checkout.php:745
+#, php-format
+msgid "Rollback failed for Gift Card %s. Original request id: %s"
+msgstr ""
+
+#: public/templates/gift-card-entry.php:49
+msgid "Validation code"
+msgstr ""
+
+#: public/templates/gift-card-entry.php:54
+msgid "Add Gift Card"
+msgstr ""

@@ -1,0 +1,27 @@
+#tcs-gcp-gift-card {
+    margin-bottom: 1em;
+}
+
+.tcs-gcp .tcs-gcp-title-and-logo-box .tcs-gcp-heading {
+    display: inline-block;
+}
+
+.tcs-gcp .tcs-gcp-title-and-logo-box .tcs-gcp-image-wrapper{
+    float: right;
+}
+
+.tcs-gcp .tcs-gcp-image-wrapper img {
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+}
+
+/**
+ * Underline and show hand cursor on hover
+ */
+.tcs-gcp-clickable:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.tcs-gcp-remove-gift-card-button {
+    float: right;
+}
